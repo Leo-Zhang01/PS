@@ -28,7 +28,7 @@ public class SecondActivity extends AppCompatActivity {
         tv = findViewById(R.id.textView);
         tv.setText(type);
         secular = new ArrayList<>();
-        ethinic = new ArrayList<>(); 
+        ethinic = new ArrayList<>();   
         secular.add(new Holiday("New Year's Day","1 January 2018",getDrawable(R.drawable.new_year)));
         ethinic.add(new Holiday("Chinese New Year","16-17 February 2018",getDrawable(R.drawable.cny)));
         secular.add(new Holiday("Good Friday","30 March 2018",getDrawable(R.drawable.good_friday)));
